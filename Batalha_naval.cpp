@@ -1,4 +1,5 @@
-
+//autores: Guilherme Henrique
+//realizado em:17/10/2025
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -137,6 +138,7 @@ bool venceu(char tab[TAM][TAM]) {
 }
 
 int main() {
+
     srand(time(0));
 
     char jogador[TAM][TAM], computador[TAM][TAM];
